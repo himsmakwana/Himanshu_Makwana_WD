@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form create</title>
+</head>
+<body>
+        <!-- form -type Get & Post  practice-->
+        <h1>Form</h1>
+    
+
+        <div class="form">
+            
+            <form method="post" enctype="multipart/form-data">
+                
+                <h2>Personal Details</h2>
+                
+                <label for="name">Enter Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" >
+                <br><br>
+                <lable>Select Gender:</lable>
+                <input type="radio" name="gender" id="male" ><label for="male">Male</label>
+                <input type="radio" name="gender" id="female"><label for="female">Female</label>
+                <br><br>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age">
+                
+                <br><br>
+                <label for="mobile">Mobile No:</label>
+                <input type="tel" name="mobile" id="mobile" placeholder="Enter Number ">
+                
+                
+                <br><br>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Enter Email ">
+    
+                <br><br>
+                <label for="date">Birth-date:</label>
+                <input type="date" name="birthdate" id="birthdate" >
+
+                <br><br>
+
+
+                <br><br>
+                
+                <H2>Education qualification</H2>
+                
+                <select name="courses" id="courses" multiple>
+                    <option value="null">Select Courses</option>
+                    <option value="web design">Web Design</option>
+                    <option value="python">python</option>
+                    <option value="java">java</option>
+                    <option value="networkin">Networking</option>
+                    <option value="php">php</option>
+                    <option value="UI/UX">UI/UX</option>
+                </select>
+        
+                <br><br>
+                <label>Hobies:</label>
+                <input type="checkbox" name="cricket" id="cricket" ><label>Playing Cricket</label>
+                <input type="checkbox" name="playing chess" id="playing chess" ><label>Playing chess</label>
+                <input type="checkbox" name="traveling" id="traveling" ><label>Traveling</label>
+                <input type="checkbox" name="Reading book" id="Reading book" ><label>Reading Book</label>
+                <br>
+                <br>
+                <h3>Feedback</h3>
+                <textarea name="text" id="text" cols="30" rows="10">Give Feedback</textarea>
+
+                <br><br>
+                <label>Upload Resume</label>
+                <br>
+                <input type="file" name="file" id="file">
+                <br><br>
+                <input type="reset" value="reset">
+                <br><br>
+                <input type="button" value="Submit">
+
+                <br><br>
+                
+            </form>
+        </div>
+</body>
+</html>
