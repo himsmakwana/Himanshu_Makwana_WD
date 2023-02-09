@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        nav{
+            background-color: bisque;
+            border: 2px solid red;
+        }
+        nav ul{
+            color: rgb(113, 216, 82);
+        }
+        .wrapper div{
+            height: 300px;
+            margin:40px;
+            border:30px dotted rgba(0, 120, 120, 0.420)
+
+        }
+
+        h1{
+            color: rgb(235, 44, 19);
+            
+        }
+
+        .background-color{
+            background-color: coral;
+        }
+
+        .background-image{
+            background-image: url(1.jfif);
+            
+        }
+
+        .background-repeat{
+            background-image: url(1.jfif);
+            /* background-repeat: repeat-y; */
+            /* background-repeat: repeat-x; */
+            /* background-repeat:space; */
+            background-repeat: no-repeat;
+            background-color: rgb(150, 158, 36);
+        }
+
+        .background-attachment{
+            background-image: url(1.jfif);
+            background-repeat:repeat-y;
+            background-attachment:fixed;
+
+        }
+
+        .background-clip{
+            background-image: url(1.jfif);
+            padding: 40px;
+            /* background-clip: border-box; */
+            background-clip: content-box;
+        }
+        .background-origin{
+            background-image: url(1.jfif);
+            padding: 50px;
+            background-origin: border-box;
+        }
+        .origin{
+            color: rgb(243, 229, 31);
+        }
+
+        .background-position{
+            background-image: url(1.jfif);
+            padding: 20px;
+            background-repeat: no-repeat;
+            /* background-position: 100% 10%; */
+            /* background-position: top; */
+            /* background-position: right; */
+            /* background-position: bottom; */
+            background-position: center 90%;
+        }
+        .background-size{
+            background-image: url(1.jfif);
+            background-repeat: no-repeat;
+            /* background-size:contain; */
+            background-size: cover;
+
+        }
+
+        .background-shorthand{
+            background: url(1.jfif) no-repeat center center/cover fixed;
+
+
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <nav>
+    <ul>
+        <li>background-color</li>
+        <li>background-image</li>
+        <li>background-repeat</li>
+        <li>background-attachment</li>
+        <li>background-clip</li>
+        <li>background-origin</li>
+        <li>background-position</li>
+        <li>background-size</li>
+    </ul>
+    </nav>
+    
+    <div class="wrapper">
+        <div class="background-color">
+            <h1>background-color</h1>
+        </div>
+        <div class="background-image">
+            <h1>background-image</h1>
+        </div>
+        <div class="background-repeat">
+
+            <h1>backgound-repeat</h1>
+        </div>
+        <div class="background-attachment">
+            <h1>background-attachment</h1>
+        </div>
+        <div class="background-clip">
+            <h1>background-clip</h1>
+        </div>
+        <div class="background-origin">
+            <h1 class="origin">background-origin</h1>
+        </div>
+        <div class="background-position">
+            <h1>background-position</h1>
+        </div>
+        <div class="background-size">
+            <h1>background-size</h1>
+        </div>
+        <div class="background-shorthand">
+            <h1>background-shorthand</h1>
+        </div>
+    </div>
+</body>
+</html>
