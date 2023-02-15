@@ -9,3 +9,7 @@
 .border-fine{
     border-bottom: 5px solid orange;
 }
+.border-right{
+    border-right: 2px black;
+    margin-right: 50px;
+}
