@@ -1,0 +1,11 @@
+.custom-border{
+    border-top: 5px solid yellow;
+    margin-top:20px;
+}
+.border-left{
+    border-left: 5px groove greenyellow;
+    margin: 50px
+}
+.border-fine{
+    border-bottom: 5px solid orange;
+}
