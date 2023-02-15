@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(92, 228, 50);
+}
+section{
+   
+    height: 400px;
+    display: flex;
+    gap: 20px;
+    margin: 80px;
+
+}
+div{
+    color: rgb(15, 13, 9);
+    background-color: rgb(179, 247, 196);
+    margin: 15px;
+    border: 15px rgb(241, 64, 64);
+}
+.border-style-dotted{
+    border-style: dotted;
+}
+.border-style-dashed{
+    border-style: dashed;
+}
+.border-style-solid{
+    border-style: solid;
+}
+.border-style-double{
+    border-style: double;
+}
+.border-style-groove{
+    border-style: groove;
+}
+.border-style-ridge{
+    border-style: ridge;
+}
+.border-style-inset{
+    border-style: inset;
+}
+.border-style-outset{
+    border-style: outset;
+}
+.border-style-1{
+    border: 10px dotted red ;
+}
