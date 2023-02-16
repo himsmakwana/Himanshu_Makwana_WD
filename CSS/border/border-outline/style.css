@@ -1,0 +1,38 @@
+h3{
+    border: 20px solid yellow;
+    outline-color: rgb(14, 13, 13);
+}
+
+.outline-style-dotted{
+    outline: 10px dotted red;
+    margin: 50px;
+}
+.outline-style-dashed{
+    outline: 10px dashed green;
+    margin: 50px;
+}
+.outline-style-solid{
+    outline: 10px solid yellow;
+    margin: 50px;
+}
+.outline-style-double{
+    outline: 10px double rgb(212, 153, 153);
+    margin: 50px;
+}
+.outline-style-groove{
+    outline: 10px groove rgb(153, 39, 206);
+    margin: 50px;
+}
+.outline-style-ridge{
+    outline:10px ridge chocolate;
+    margin: 50px;
+
+}
+.outline-style-inset{
+    outline: 10px inset cornflowerblue;
+    margin: 50px;
+}
+.outline-style-outset{
+    outline: 10px outset crimson;
+    margin: 50px;
+}
