@@ -1,0 +1,7 @@
+.border-image{
+    border-style: solid;
+    border-width: 50px;
+    border-image: url(/1.jpg) 60;
+    /* border-image: repeating-linear-gradient(60deg, #4d9f0c,#9198e5,#4d9f0c 20px) 90; */
+    height: 200px;
+}
