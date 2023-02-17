@@ -1,0 +1,9 @@
+.border-outline{
+    border: 20px dashed green;
+    outline: 20px solid gold;
+    margin: 50px;
+}
+a:hover{
+    /* border: 20px solid orchid; */
+    outline: 20px solid lightcoral;
+}
