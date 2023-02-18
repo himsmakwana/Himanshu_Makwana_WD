@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    display:flex;
+    gap: 20px;
+}
+div{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    /* margin: 50px; */
+    
+}
+.margin-side{
+    margin: 10px 50px;
+}
