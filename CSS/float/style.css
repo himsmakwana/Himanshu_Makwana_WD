@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+/* .clear-fix{
+    clear: right;
+}
+.clear-fix{
+    clear: left;
+} */
+.clear-fix{
+    clear: both;
+}
