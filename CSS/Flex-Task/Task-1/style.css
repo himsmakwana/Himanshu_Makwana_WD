@@ -1,0 +1,42 @@
+.top-section {
+  /* border: 1px solid; */
+  display: flex;
+  text-align: center;
+}
+.top-section div {
+  flex-grow: 1;
+  height: 300px;
+  background-color: rgb(29, 113, 124);
+  border: 3px solid;
+  margin: 10px;
+}
+#a {
+  flex-basis: 150px;
+}
+/* #b {
+    flex-basis: 50px;
+  } */
+#c {
+  flex-basis: 850px;
+}
+.bottom-section {
+  display: flex;
+}
+.bottom-section div {
+  border: 3px solid;
+  height: 50px;
+  margin: 10px 0px 10px 10px;
+  text-align: center;
+}
+#x {
+  flex-grow: 3;
+  background-color: aqua;
+}
+#y {
+  flex-grow: 2;
+  background-color: coral;
+}
+#z {
+  flex-grow: 1;
+  background-color: aqua;
+}
