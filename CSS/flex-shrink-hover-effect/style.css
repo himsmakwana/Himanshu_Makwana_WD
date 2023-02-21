@@ -1,0 +1,14 @@
+.content {
+  display: flex;
+  width: 500px;
+}
+.content div {
+  flex-basis: 220px;
+  border: 2px solid;
+}
+.content div:hover {
+  flex-basis: 240px;
+}
+.box {
+  flex-shrink: 2;
+}
