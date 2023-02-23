@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container {
+  display: flex;
+  height: 400px;
+  color: rgb(45, 46, 43);
+  margin: 50px 20px;
+  text-align: center;
+  gap: 20px;
+}
+.First-card {
+  align-self: stretch;
+  flex-grow: 6;
+  background-color: rgb(76, 174, 231);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+.Second-card {
+  align-self: stretch;
+  flex-grow: 1;
+  background-color: rgba(79, 206, 90, 0.726);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+.Third-card {
+  align-self: stretch;
+  flex-grow: 3;
+  background-color: rgb(223, 99, 171);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+.container .First-card h3 {
+  margin: 30px;
+}
+.container .Second-card h3 {
+  margin: 30px;
+}
+.container .Third-card h3 {
+  margin: 30px;
+}
+p {
+  text-align: justify;
+  padding: 0 30px;
+}
+.First-card:hover {
+  color: white;
+  background-color: rgb(26, 38, 90);
+  transform: scale(1.02);
+  cursor: pointer;
+  transition: 0.5sec ease-out;
+}
+.Second-card:hover {
+  color: white;
+  background-color: rgb(10, 184, 33);
+  transform: scale(1.02);
+  cursor: pointer;
+  transition: 0.5sec ease-out;
+}
+.Third-card:hover {
+  color: white;
+  background-color: rgb(143, 16, 122);
+  transform: scale(1.02);
+  cursor: pointer;
+  transition: 0.5sec ease-out;
+}
