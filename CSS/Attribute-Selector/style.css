@@ -1,0 +1,28 @@
+/* syntex=
+        tag/element[attibute="value"]{
+          any css style
+        } */
+input[type="text"] {
+  color: yellow;
+  background-color: black;
+}
+input[type="password"] {
+  color: black;
+  background-color: bisque;
+}
+/* a[href="https://google.co.in"]
+          {
+            color: yellowgreen;
+          } */
+/* a[href*="google"] {            (=== for any value word ==)
+            color: turquoise;
+          } */
+/* a[href^="https"] {              (=== for starting value word ==)
+            color: tomato;
+          } */
+/* a[href$=".com"] {                 (=== for ending value word ==)
+            color: rgb(161, 23, 23);
+          } */
+/* a[href~="co"] {                    (=== for any value word ==)
+            color: chartreuse;
+          } */
