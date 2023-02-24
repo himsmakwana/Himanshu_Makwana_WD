@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attribute Selector</title>
+    <style>
+      /* syntex=
+        tag/element[attibute="value"]{
+          any css style
+        } */
+      input[type="text"] {
+        color: yellow;
+        background-color: black;
+      }
+      input[type="password"] {
+        color: black;
+        background-color: bisque;
+      }
+      /* a[href="https://google.co.in"]
+      {
+        color: yellowgreen;
+      } */
+      /* a[href*="google"] {            (=== for any value word ==)
+        color: turquoise;
+      } */
+      /* a[href^="https"] {              (=== for starting value word ==)
+        color: tomato;
+      } */
+      /* a[href$=".com"] {                 (=== for ending value word ==)
+        color: rgb(161, 23, 23);
+      } */
+      /* a[href~="co"] {                    (=== for any value word ==)
+        color: chartreuse;
+      } */
+    </style>
+  </head>
+  <body>
+    <h2>Links</h2>
+    <a href="https://google.co.in">Google india</a>
+    <br />
+    <a href="https://google.co.uk">Google Uk</a>
+    <br />
+    <a href="https://flipkard.com">Flipkart</a>
+    <br />
+    <a href="https://facebook.com">facebook</a>
+    <br /><br />
+    <h2>Form</h2>
+    <form>
+      <label for="fname">first name:</label>
+      <br />
+      <input type="text" id="fname" />
+      <br />
+      <label for="lname">last name</label>
+      <br />
+      <input type="text" id="lname" />
+      <br />
+      <label for="pass">password</label><br />
+      <input type="password" id="pass" />
+    </form>
+  </body>
+</html>
