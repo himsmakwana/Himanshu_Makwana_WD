@@ -1,0 +1,25 @@
+p::first-letter {
+  color: red;
+  background-color: burlywood;
+  font-size: 30px;
+  font-weight: bolder;
+}
+p::first-line {
+  color: yellowgreen;
+  background-color: antiquewhite;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+p::selection {
+  color: coral;
+  background-color: snow;
+}
+/* it is a css3 pseudo element. */
+h1::selection {
+  color: white;
+  background-color: red;
+}
+::placeholder {
+  color: red;
+  background-color: yellow;
+}
