@@ -1,0 +1,65 @@
+.wrapper {
+  border: 5px solid rgb(119, 82, 13);
+
+  text-align: center;
+}
+.top-section {
+  display: flex;
+  gap: 5px;
+
+  height: 150px;
+  margin: 5px;
+}
+.menu-1 {
+  background-color: rgb(94, 30, 155);
+  flex-grow: 1;
+}
+.menu-2 {
+  background-color: rgb(87, 26, 145);
+  flex-grow: 1;
+}
+.center-section {
+  display: flex;
+  gap: 5px;
+  margin: 5px;
+
+  height: 250px;
+}
+.menu-3 {
+  flex-grow: 1;
+  background-color: orange;
+}
+.menu4-5 {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  gap: 5px;
+}
+#menu-4 {
+  background-color: blue;
+  flex-grow: 1;
+}
+#menu-5 {
+  flex-grow: 1;
+  background-color: blue;
+}
+.bottom-section {
+  display: flex;
+
+  gap: 5px;
+  margin: 5px;
+  height: 200px;
+  text-align: center;
+}
+.menu-6 {
+  flex-grow: 1;
+  background-color: rgb(179, 18, 152);
+}
+.menu-7 {
+  flex-grow: 1;
+  background-color: rgb(179, 18, 152);
+}
+.menu-8 {
+  flex-grow: 1;
+  background-color: rgb(179, 18, 152);
+}
