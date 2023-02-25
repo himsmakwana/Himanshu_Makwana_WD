@@ -1,0 +1,14 @@
+p::before {
+  content: "hello";
+  color: red;
+  background-color: yellow;
+}
+p:hover::after {
+  content: "world";
+  color: red;
+  background-color: yellow;
+  font-size: larger;
+}
+h1 {
+  color: aqua;
+}
