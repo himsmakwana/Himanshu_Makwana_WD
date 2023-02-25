@@ -4,32 +4,31 @@
   text-align: center;
 }
 .top-section div {
-  flex-grow: 1;
   height: 300px;
   background-color: rgb(29, 113, 124);
   border: 3px solid;
   margin: 10px;
 }
 #a {
-  flex-basis: 150px;
+  flex-grow: 3;
 }
-/* #b {
-    flex-basis: 50px;
-  } */
+#b {
+  flex-grow: 1;
+}
 #c {
-  flex-basis: 850px;
+  flex-grow: 10;
 }
 .bottom-section {
   display: flex;
+  text-align: center;
 }
 .bottom-section div {
   border: 3px solid;
-  height: 50px;
+  height: 30px;
   margin: 10px 0px 10px 10px;
-  text-align: center;
 }
 #x {
-  flex-grow: 3;
+  flex-grow: 4;
   background-color: aqua;
 }
 #y {
