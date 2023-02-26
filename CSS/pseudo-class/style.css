@@ -1,0 +1,97 @@
+/* li:first-child {
+  color: green;
+} */
+/* li:last-child {
+  color: rgb(249, 248, 250);
+  background-color: black;
+} */
+/* #list li:last-child {
+  color: rgb(249, 248, 250);
+  background-color: rgb(235, 65, 65);
+} */
+/* li:nth-child(3) {
+  color: rgb(238, 241, 230);
+  font-size: large;
+} */
+/* li:nth-child(3n + 5) {
+  color: rgb(199, 245, 72);
+  font-size: large;
+} */
+li:nth-last-child(4) {
+  color: rgb(47, 127, 247);
+  font-size: large;
+}
+p:nth-of-type(1) {
+  color: rgb(47, 127, 247);
+  font-size: large;
+}
+p:nth-last-of-type(1) {
+  color: rgb(240, 150, 16);
+  font-size: large;
+}
+*/ li:only-child {
+  color: chartreuse;
+}
+/* it is used to only one child of parents */
+/* p:only-of-type{
+  color: yellow;
+} */
+p:first-of-type {
+  color: yellow;
+}
+p:last-of-type {
+  color: rgb(41, 79, 184);
+}
+/* div:empty{
+  border: 2px solid red;
+  
+} */
+/* p:not(.test){
+  color:red;
+} */
+/* p:lang(en){
+  color: rgb(23, 199, 102);
+} */
+a:link {
+  color: chocolate;
+}
+a:hover {
+  color: blueviolet;
+}
+li:hover {
+  color: chartreuse;
+}
+a:visited {
+  color: yellow;
+}
+a:active {
+  color: rgb(34, 177, 233);
+}
+p:target {
+  background-color: gold;
+}
+input:focus {
+  border: 2px solid red;
+  background-color: greenyellow;
+}
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px red;
+}
+input[type="text"]:disabled {
+  background-color: rgb(66, 54, 54);
+}
+input[type="text"]:required {
+  background-color: rgb(175, 25, 112);
+}
+input:in-range {
+  background-color: green;
+}
+input:out-of-range {
+  background-color: RED;
+}
+:root {
+  --maincolor: grey;
+}
+h1 {
+  color: var(--maincolor);
+}
