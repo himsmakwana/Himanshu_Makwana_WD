@@ -1,0 +1,89 @@
+div {
+  margin: 50px;
+}
+
+.text-align-center {
+  border: 2px solid grey;
+  text-align: center;
+
+  height: 50px;
+}
+.center-flex-justify-content {
+  border: 3px solid darkred;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+.center-padding {
+  border: 3px solid darkblue;
+  padding: 50px 0;
+}
+.center-line-height {
+  border: 2px solid black;
+  height: 150px;
+  line-height: 150px;
+}
+
+.center-line-height p {
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.center-align-items {
+  border: 2px solid;
+  display: flex;
+  height: 150px;
+  align-items: center;
+}
+/* .center-transform {
+  border: 2px solid;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 10px;
+} */
+
+.parent {
+  background: rgb(196, 32, 32);
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+
+.child {
+  background: rgb(45, 243, 55);
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+}
+html,
+body {
+  height: 100%;
+}
+
+.parent-flex {
+  height: 200px;
+  background: rgb(74, 23, 168);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child-flex {
+  background-color: wheat;
+  width: 100px;
+  height: 100px;
+}
+.area {
+  height: 100px;
+  width: 100px;
+  background: gold;
+  margin: 10px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
