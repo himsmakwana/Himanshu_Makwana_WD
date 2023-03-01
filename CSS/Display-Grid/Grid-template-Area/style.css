@@ -1,0 +1,32 @@
+#homepage {
+  display: grid;
+  grid-template-rows: 70px 1fr 50px;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas:
+    "head head"
+    "sidemenu main"
+    "footer footer";
+  width: 100%;
+  height: 600px;
+}
+#homepage > header {
+  grid-area: head;
+  background-color: #90f022;
+}
+
+#homepage > nav {
+  grid-area: sidemenu;
+  background-color: #df24e6;
+}
+
+#homepage > main {
+  grid-area: main;
+
+  background-color: #a14f4fc7;
+}
+
+#homepage > footer {
+  grid-area: footer;
+
+  background-color: #90f022;
+}
