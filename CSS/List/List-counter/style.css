@@ -1,0 +1,18 @@
+body {
+  margin: 50px;
+  counter-reset: my-counter 0;
+}
+h1 {
+  font-size: larger;
+  color: red;
+  background-color: yellow;
+  text-align: center;
+}
+h2::before {
+  color: green;
+  font-size: 30px;
+  background-color: burlywood;
+  margin: 5px;
+  content: "chapter " counter(my-counter, upper-alpha) " - ";
+  counter-increment: my-counter 1;
+}

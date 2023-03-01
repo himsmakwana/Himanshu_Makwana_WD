@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        display: inline-block;
+        color: white;
+        background-color: green;
+        counter-reset: subsection;
+      }
+      body {
+        counter-reset: section;
+      }
+
+      h1::before {
+        content: "section " counter(section) " : ";
+        counter-increment: section;
+      }
+      h3::before {
+        content: counter(section) " . " counter(subsection) " - ";
+        counter-increment: subsection;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML and CSS</h1>
+    <h3>html tutorial</h3>
+    <h3>CSS tutorial</h3>
+    <h3>Bootstrap tutorial</h3>
+    <hr />
+    <h1>JavaScript</h1>
+    <h3>JavaScipt Tutorial</h3>
+    <h3>JQuery Tutorial</h3>
+    <h3>JSON Tutorial</h3>
+    <hr />
+    <h1>Server Side</h1>
+    <h3>SQL Tutorial</h3>
+    <h3>PHP Turial</h3>
+  </body>
+</html>
