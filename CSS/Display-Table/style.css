@@ -1,0 +1,37 @@
+body {
+  font: 16px Arial;
+}
+
+.table {
+  display: table;
+  border-collapse: separate;
+  word-wrap: break-word;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cell {
+  display: table-cell;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.one {
+  background-color: #ffddee;
+}
+.two {
+  background-color: #c0f0f0;
+}
+.three {
+  background-color: #feeee0;
+}
+
+ul li pre {
+  display: inline;
+}
+p {
+  margin: 0;
+}

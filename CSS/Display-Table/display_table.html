@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <pre>display: table</pre>
+
+    <ul>
+      <li>
+        no
+        <pre>table</pre>
+        elements
+      </li>
+      <li>
+        no fixed
+        <pre>height</pre>
+        (well, actually cells have an height: 20px set but it behaves like
+        min-height: 20px in this case - remove if you don't need it)
+      </li>
+    </ul>
+
+    <div class="table">
+      <div class="cell one"><p>Huh? 👀</p></div>
+      <div class="cell two">
+        <p>
+          Mmmh wait, all these elements in a row have the same height… but we
+          don't have any fixed height declaration in the CSS 🤔
+          <strong>WHY?</strong>
+        </p>
+      </div>
+      <div class="cell three"><p>Because they behave like a table! ☝️</p></div>
+    </div>
+    <div class="table">
+      <div class="cell one"><p>AH!</p></div>
+      <div class="cell three">…</div>
+      <div class="cell two">
+        <p><strong>SOOO</strong></p>
+      </div>
+    </div>
+    <div class="table">
+      <div class="cell one">dynamic width and height</div>
+    </div>
+    <div class="table">
+      <div class="cell three"></div>
+      <div class="cell one"></div>
+      <div class="cell two"></div>
+    </div>
+    <div class="table">
+      <div class="cell two"></div>
+      <div class="cell three"></div>
+    </div>
+    <div class="table">
+      <div class="cell one">You can combine as you see fit!</div>
+      <div class="cell three"></div>
+      <div class="cell two"></div>
+    </div>
+    <div class="table">
+      <div class="cell three">🔥</div>
+    </div>
+  </body>
+</html>
