@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.col {
+  width: 25%;
+  margin: 20px;
+}
+img {
+  width: 100%;
+  margin: 50px;
+}
+.imgblur {
+  filter: blur(5px);
+}
+.brightness {
+  filter: brightness(0.4);
+}
+.contrast {
+  filter: contrast(200%);
+}
+.shadow {
+  filter: drop-shadow(16px 16px 20px blue);
+}
+.grayscale {
+  filter: grayscale(80%);
+}
