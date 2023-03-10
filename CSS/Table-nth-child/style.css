@@ -1,0 +1,23 @@
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0 auto;
+}
+table,
+td,
+th {
+  border: 1px solid;
+}
+tbody > tr:nth-child(even) {
+  background-color: rgb(82, 17, 17);
+  color: white;
+}
+tbody > tr:nth-child(4n + 1) {
+  color: white;
+  background-color: rgb(25, 51, 14);
+}
+
+thead > tr {
+  color: white;
+  background-color: rgb(38, 36, 105);
+}
