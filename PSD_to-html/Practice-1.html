@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Web Site</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* border: 1px solid white; */
+      }
+      .container {
+        width: auto;
+
+        height: 800px;
+        border: 1px solid black;
+      }
+      .menubar {
+        background-color: #303030;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .menu ul {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 25px;
+        text-transform: uppercase;
+        list-style-type: none;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-weight: 200;
+      }
+      .menu ul li {
+        margin: 10px;
+      }
+      .logo img {
+        height: 45px;
+        margin: 20px;
+      }
+      .hero-section {
+        background: url(/PSD_to-html/3390959.png);
+        /* height: 300%; */
+        background-size: 900px;
+        /* transform: rotate(34deg); */
+        /* background-size: contain; */
+        background-repeat: no-repeat;
+        /* overflow: hidden; */
+      }
+      .hero-section title {
+        padding: 200px;
+      }
+      button {
+        margin: 500px;
+        background-color: #e7631c;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="menubar">
+        <div class="logo">
+          <img
+            src="/PSD_to-html/Vector Smart Object (Double Click to Edit).png"
+            alt="logo"
+          />
+        </div>
+        <div class="menu">
+          <ul>
+            <li>home</li>
+            <li>product</li>
+            <li>promo</li>
+            <li>about</li>
+            <li>contact</li>
+          </ul>
+        </div>
+        <div class="search">
+          <img src="/PSD_to-html/Search.png" alt="search" />
+        </div>
+      </div>
+
+      <div class="hero-section">
+        <div class="title">Title Here</div>
+        <div class="text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            lacinia odio vitae vestibulum vestibulum.
+          </p>
+        </div>
+        <div class="button">
+          <button>Register Now</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
