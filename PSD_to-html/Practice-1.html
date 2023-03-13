@@ -15,47 +15,75 @@
       .container {
         width: auto;
 
-        height: 800px;
+        /* height: 800px; */
         border: 1px solid black;
       }
+      /* menu section start */
       .menubar {
         background-color: #303030;
         display: flex;
         align-items: center;
         justify-content: space-around;
+        gap: 100px;
+        padding: 20px 0;
       }
       .menu ul {
         display: flex;
         justify-content: space-between;
+        gap: 50px;
         color: white;
-        font-size: 25px;
+        font-size: 20px;
         text-transform: uppercase;
         list-style-type: none;
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-        font-weight: 200;
+        font-weight: 100;
       }
-      .menu ul li {
-        margin: 10px;
+      .menu ul a {
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+      }
+      .menu ul a:hover {
+        color: #303030;
+        background-color: #e7631c;
       }
       .logo img {
-        height: 45px;
-        margin: 20px;
+        height: 40px;
       }
+      /* hero section start */
       .hero-section {
-        background: url(/PSD_to-html/3390959.png);
-        /* height: 300%; */
-        background-size: 900px;
-        /* transform: rotate(34deg); */
-        /* background-size: contain; */
+        background-image: url(/PSD_to-html/hero.png);
         background-repeat: no-repeat;
-        /* overflow: hidden; */
+        background-position: 15% 60%;
+        height: 30rem;
+        background-size: cover;
       }
-      .hero-section title {
-        padding: 200px;
+      .box {
+        height: 300px;
+        width: 400px;
+        padding: 170px 0px 0px 95px;
       }
-      button {
-        margin: 500px;
+
+      .hero-section .title {
+        color: white;
+        font-size: 4rem;
+      }
+      .hero-section .text p {
+        color: white;
+        text-align: justify;
+        padding: 10px;
+      }
+
+      .button-reg {
+        color: white;
         background-color: #e7631c;
+        margin: 20px;
+        padding: 8px 30px;
+        border: none;
+      }
+      .botton-reg:hover {
+        background-color: wheat;
+        color: #e7631c;
       }
     </style>
   </head>
@@ -70,28 +98,32 @@
         </div>
         <div class="menu">
           <ul>
-            <li>home</li>
-            <li>product</li>
-            <li>promo</li>
-            <li>about</li>
-            <li>contact</li>
+            <a href="#" target="_self"><li>home</li></a>
+            <a href="#" target="_self"><li>product</li></a>
+            <a href="#" target="_self"><li>promo</li></a>
+            <a href="#" target="_self"><li>about</li></a>
+            <a href="#" target="_self"><li>contact</li></a>
           </ul>
         </div>
         <div class="search">
-          <img src="/PSD_to-html/Search.png" alt="search" />
+          <a href="#" target="">
+            <img src="/PSD_to-html/Search.png" alt="search"
+          /></a>
         </div>
       </div>
 
       <div class="hero-section">
-        <div class="title">Title Here</div>
-        <div class="text">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            lacinia odio vitae vestibulum vestibulum.
-          </p>
-        </div>
-        <div class="button">
-          <button>Register Now</button>
+        <div class="box">
+          <div class="title">Title Here</div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              lacinia odio vitae vestibulum vestibulum.
+            </p>
+          </div>
+          <div class="button-reg">
+            <a href="#" target=""> Register Now</a>
+          </div>
         </div>
       </div>
     </div>
