@@ -50,7 +50,7 @@
 }
 /* hero section start */
 .hero-section {
-  background-image: url(/PSD_to-html/hero.png);
+  background-image: url(/Psd-to-html/image/hero.png);
   background-repeat: no-repeat;
   background-position: 15% 60%;
   height: 30rem;
@@ -136,6 +136,7 @@ button:hover {
 .asia,
 .austalia {
   background-color: #303030;
+  margin-bottom: 50px;
 }
 
 .dance-tour h3,
@@ -162,4 +163,52 @@ h6 {
 .card1 h6 {
   font-size: 20px;
   padding-top: 20px;
+}
+/* start pricing section */
+.pricing {
+  background-color: #2f2f2f;
+  text-align: center;
+}
+.Title {
+  padding: 70px;
+}
+.Title h6 {
+  font-size: 40px;
+}
+.Title p {
+  padding: 20px 350px 0px 350px;
+  line-height: -5px;
+  word-spacing: 2px;
+}
+.card2 {
+  display: flex;
+  column-gap: 50px;
+  justify-content: center;
+}
+.basic {
+  width: 280px;
+  background-color: #e7631b;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  box-shadow: 5px 2px 5px rgba(161, 118, 118, 0.678);
+}
+.doller {
+  background-color: #2f2f2f;
+  color: white;
+}
+.card2 .basic img {
+  height: 100px;
+  margin: 30px;
+}
+.card2 .basic h6 {
+  font-size: 20px;
+  margin: 10px;
+}
+.card2 .basic p {
+  line-height: 20px;
+  font-weight: 400;
+}
+.card2 .basic .doller {
+  margin: 20px;
+  padding: 10px;
 }
