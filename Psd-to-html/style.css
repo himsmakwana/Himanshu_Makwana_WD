@@ -49,6 +49,7 @@
   height: 40px;
 }
 /* hero section start */
+
 .hero-section {
   background-image: url(/Psd-to-html/image/hero.png);
   background-repeat: no-repeat;
@@ -211,4 +212,36 @@ h6 {
 .card2 .basic .doller {
   margin: 20px;
   padding: 10px;
+}
+/* amazing dance section start */
+
+.amazing {
+  color: white;
+  background-color: #e7631b;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.box2 h6 {
+  font-size: 40px;
+  padding: 20px 0px;
+}
+.amazing p {
+  line-height: 30px;
+}
+.box2 div {
+  background-color: #2f2f2f;
+  margin: 25px;
+  padding: 15px 0px;
+}
+
+.amazing .box1 img {
+  max-height: fit-content;
+  width: 600px;
+}
+
+.amazing .box2 {
+  width: 400px;
+  margin: 0px auto;
 }
