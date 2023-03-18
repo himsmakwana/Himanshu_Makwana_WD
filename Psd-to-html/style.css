@@ -51,7 +51,7 @@
 /* hero section start */
 
 .hero-section {
-  background-image: url(/Psd-to-html/image/hero.png);
+  background-image: url(/Psd-to-html/image/banner-hero.png);
   background-repeat: no-repeat;
   background-position: 15% 60%;
   height: 30rem;
@@ -68,9 +68,9 @@
   color: white;
 
   font-size: 40px;
-  transition: all 0.3sec ease-in;
+  transition: all 0.3s ease-in;
   animation-name: hims2;
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
 }
@@ -93,7 +93,7 @@ button {
   background-color: #e7631c;
   margin: 10px;
   padding: 8px 30px;
-  border: none;
+  border: 1px solid black;
   border-radius: 5px;
 
   box-shadow: 3px 3px 3px;
@@ -109,7 +109,7 @@ button {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.2);
+    transform: scale(1.05);
   }
   100% {
     transform: scale(1);
@@ -120,6 +120,8 @@ button:hover {
   color: #e7631c;
   border: 2px solid white;
   box-shadow: 3px 3px 3px;
+  animation: none;
+  /* transition: all 1sec sec ease-out; */
 }
 /* DANCE TOUR SECTION :start */
 .card1 {
