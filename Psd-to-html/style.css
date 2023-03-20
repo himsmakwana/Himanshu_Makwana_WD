@@ -89,11 +89,11 @@
   padding: 10px;
 }
 
-button {
+.button-reg button {
   color: white;
   background-color: #e7631c;
   margin: 10px;
-  padding: 8px 30px;
+  padding: 7px 20px;
   border: 1px solid black;
   border-radius: 5px;
 
@@ -116,10 +116,10 @@ button {
     transform: scale(1);
   }
 }
-button:hover {
+.button-reg button:hover {
   background-color: transparent;
   color: #e7631c;
-  border: 2px solid white;
+  border: 2px solid black;
   box-shadow: 3px 3px 3px;
   animation: none;
   /* transition: all 1sec sec ease-out; */
@@ -279,9 +279,87 @@ h6 {
 }
 .cac span {
   display: flex;
-  font-size: 20px;
-  font-weight: 800;
+  font-size: 18px;
 }
 .cac div {
   font-size: 42px;
+}
+
+/* herbert simon section */
+.herbert {
+  background-image: url(/Psd-to-html/image/herbern.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-blend-mode: multiply;
+
+  /* background-position: center; */
+  /* background-clip: content-box; */
+  background-color: #e7631c;
+}
+.herbert div {
+  padding: 421px;
+}
+.herbert div p,
+h5 {
+  text-align: center;
+  color: white;
+}
+.herbert div p {
+  line-height: 25px;
+  margin: 0px 50px 0px 50px;
+}
+.herbert div h5 {
+  font-size: 40px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+/* subscribe secttion :start */
+.subscribe {
+  background-color: #e8631c;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.subscribe h5 {
+  font-size: 40px;
+  padding: 40px;
+}
+.subscribe P {
+  margin: 0px 420px 30px 420px;
+  line-height: 20px;
+}
+.subscribe button {
+  background-color: #303030;
+  padding: 12px 30px 12px 30px;
+}
+.subscribe input,
+button {
+  margin: 0px auto;
+  font-size: 16px;
+  border: none;
+  /* padding: 12px 0px 12px 0px; */
+}
+.subscribe input {
+  padding: 0px 80px 0px 20px;
+  margin-right: -20px;
+  padding: 12px 80px 12px 20px;
+}
+footer {
+  background-color: #303030;
+  /* display: flex; */
+  padding: 100px 20px 200px 20px;
+}
+
+.footer {
+  display: flex;
+  column-gap: 200px;
+}
+
+.Musicology div img {
+  height: 25px;
+}
+.subscribe input[type="text"] {
+  color: #2f2f2f;
+}
+.Musicology {
+  width: 300px;
 }
