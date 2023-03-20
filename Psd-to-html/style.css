@@ -346,20 +346,39 @@ button {
 footer {
   background-color: #303030;
   /* display: flex; */
-  padding: 100px 20px 200px 20px;
+  padding: 100px 20px 80px 20px;
 }
 
 .footer {
   display: flex;
-  column-gap: 200px;
+  column-gap: 130px;
+  text-align: left;
 }
 
-.Musicology div img {
-  height: 25px;
-}
 .subscribe input[type="text"] {
   color: #2f2f2f;
 }
 .Musicology {
-  width: 300px;
+  width: 450px;
+  margin-left: 30px;
+}
+.footer h6 {
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer p {
+  line-height: 25px;
+}
+.footer .Musicology a img {
+  margin: 10px 5px 0px 5px;
+  height: 30px;
+}
+.footer .alone {
+  width: 150px;
+  line-height: 30px;
 }
