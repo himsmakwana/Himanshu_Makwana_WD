@@ -16,6 +16,7 @@
 .row {
   display: flex;
 }
+
 .navbar li {
   display: inline-block;
 }
@@ -29,7 +30,9 @@ img {
 }
 .search-bar {
   opacity: 0.471;
-  flex-direction: row;
   border-radius: 25px;
   background-color: #7f7770;
+  position: absolute;
+  right: 400px;
+  height: 100px;
 }
