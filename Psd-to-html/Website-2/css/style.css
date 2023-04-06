@@ -103,13 +103,13 @@ img {
   color: #e2a355;
   font-weight: 800;
 }
-.card-section {
-  display: flex;
+.card-section .card {
 }
 .img-card {
-  width: 100%;
-  object-fit: contain;
+  display: flex;
+  width: auto;
 }
+
 .card-img-all {
   margin: 30px auto;
   width: 350px;
@@ -130,7 +130,9 @@ p {
   font-weight: 400;
 }
 .button-sm {
-  margin-left: 50%;
+  margin-left: 45%;
+  margin-top: 50px;
+  margin-bottom: 100px;
   padding: 20px 40px 20px 40px;
   border-radius: 30px;
   font-size: 23px;
@@ -139,4 +141,5 @@ p {
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 800;
+  background-color: #54524f;
 }

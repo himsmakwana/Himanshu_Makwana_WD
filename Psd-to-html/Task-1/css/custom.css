@@ -1,0 +1,183 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #f6f3ec;
+  /* border: 1px solid; */
+}
+.container {
+  width: 100%;
+}
+.container-fluid {
+  width: 1300px;
+}
+
+img {
+  width: 100%;
+}
+.posi-rel {
+  position: relative;
+}
+.posi-ab {
+  position: absolute;
+}
+/* header section start  */
+.logo {
+  width: 200px;
+  margin-left: 50px;
+}
+header {
+  background-color: #f6f3ec;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  line-height: 180px;
+  position: relative;
+}
+.navbar li {
+  display: inline-block;
+  margin-left: 26px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+.navbar li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 5px;
+}
+.navbar li a:hover {
+  color: #be6419;
+}
+.btn {
+  background-color: #be6419;
+  color: #f6f3ec;
+  margin-left: 26px;
+  margin-right: 50px;
+  border-radius: none;
+  padding: 5px 15px 5px 15px;
+  border: none;
+}
+.btn:hover {
+  background-color: transparent;
+  color: #be6419;
+  outline: 1px solid black;
+  cursor: pointer;
+}
+.bg_nav {
+  width: 200px;
+  position: absolute;
+  left: 400px;
+  top: -15px;
+}
+/* header section end  */
+/* main section :start */
+.main-section {
+  display: flex;
+  margin: 50px 50px 50px 100px;
+}
+.main-section .sub-section-1 h1 {
+  font-size: 85px;
+  line-height: 80px;
+  color: #000000;
+  font-weight: 700;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.main-section .sub-section-1 p {
+  font-size: 25px;
+  margin: 5px 310px 50px 0px;
+}
+.main-section .sub-section-1 .img-small {
+  width: 242px;
+  position: absolute;
+  left: 270px;
+  top: -13px;
+}
+.main-section .sub-section-2 .main-section-img {
+  width: 650px;
+}
+.main-section .sub-section-2 .Yellow-Shape {
+  width: 100px;
+  margin-left: 280px;
+  margin-bottom: 30px;
+}
+.read-more a {
+  font-size: 26px;
+  text-decoration: underline;
+  color: #000000;
+  font-weight: 800;
+  margin-top: 70px;
+}
+.main-section .sub-section-1 .bg-blue {
+  position: absolute;
+  top: 200px;
+  left: -150px;
+  width: 200px;
+}
+/* main section end */
+/* restorant section :start */
+.restorant-img {
+  margin: 50px;
+}
+.restorant p {
+  font-size: 25px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+  margin: 5px 300px 5px 300px;
+}
+.restorant h1 {
+  font-size: 25px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+  margin: 25px;
+}
+.restorant .resto-bg-1 {
+  width: 150px;
+  position: absolute;
+  top: 40px;
+  right: -50px;
+}
+.restorant .resto-bg-2 {
+  width: 150px;
+  position: absolute;
+  top: 200px;
+  transform: rotate(90deg);
+  left: -150px;
+}
+.restorant .resto-bg-3 {
+  width: 100px;
+  position: absolute;
+  bottom: -30px;
+  right: 300px;
+}
+/* restorant section :end */
+/* menu section :start */
+.card {
+  display: flex;
+  gap: 100px;
+  margin: 0px -50px;
+}
+.card .menu-card {
+  width: 360px;
+}
+.menu .our-menu h6 {
+  font-size: 50px;
+  line-height: 142px;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Roboto";
+  text-align: center;
+}
+.menu .our-menu p {
+  font-size: 25px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+  margin: 0px 400px 50px 400px;
+}
