@@ -283,4 +283,78 @@ p {
 }
 /* own flaver secton end */
 /* new recipes section :start */
+.new-recipes h6 {
+  font-size: 50px;
+  line-height: 70px;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Roboto";
+  text-align: center;
+  margin-top: 50px;
+}
+.new-recipes p {
+  font-size: 25px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+  margin: 0px 380px 0px 380px;
+}
+.new-recipes .image-flex {
+  display: flex;
+  column-gap: 30px;
+  margin: 50px 100px 50px 100px;
+}
+.new-recipes .image-flex .new-recipes2-img {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.new-recipes .new-recipes-bg1 {
+  position: absolute;
+  left: 150px;
+  top: 20px;
+  width: 200px;
+}
+.new-recipes .new-recipes-bg2 {
+  position: absolute;
+  left: 300px;
+  bottom: -40px;
+  width: 200px;
+}
 /* new recipes section :end */
+/* talents section :start */
+.talents {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.talent-img {
+  margin-top: 50px;
+}
+.talents h6 {
+  font-size: 50px;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+.talents .para {
+  font-size: 25px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+.talents .read a {
+  font-size: 25px;
+  text-decoration: underline;
+  color: #000000;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+.talents .sub_div h6 {
+  margin: 50px 220px 20px 100px;
+}
+.talents .sub_div p {
+  margin-bottom: 20px;
+}
+/* talents section end */
