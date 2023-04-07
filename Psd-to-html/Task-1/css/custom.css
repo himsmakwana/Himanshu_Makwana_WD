@@ -156,11 +156,11 @@ header {
   right: 300px;
 }
 /* restorant section :end */
-/* menu section :start */
+/* our menu section :start */
 .card {
   display: flex;
   gap: 100px;
-  margin: 0px -50px;
+  margin: 0px -80px;
 }
 .card .menu-card {
   width: 360px;
@@ -181,3 +181,106 @@ header {
   text-align: center;
   margin: 0px 400px 50px 400px;
 }
+.menu .card .menu-card h6 {
+  font-size: 26px;
+  color: #000000;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+.menu .card .menu-card p {
+  font-size: 26px;
+  color: #000000;
+  font-weight: 300;
+  font-family: "Roboto";
+}
+.menu .abc {
+  width: 150px;
+  position: absolute;
+  top: 120px;
+  left: 200px;
+}
+/* our menu section :end */
+/* about us section start */
+.about_us .about-img {
+  margin-left: 100px;
+  margin-right: 50px;
+}
+.about_us h6 {
+  font-size: 50px;
+  line-height: 100px;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Roboto";
+  margin-top: 100px;
+}
+.about_us p {
+  font-size: 25px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin-right: 740px;
+  margin-bottom: 50px;
+}
+.about_us h6,
+p {
+  margin-left: 100px;
+}
+.about_us .about-bg {
+  width: 50px;
+  position: absolute;
+  top: -50px;
+  left: -20px;
+  transform: rotate(120deg);
+}
+.about_us .about-bg2 {
+  width: 180px;
+  position: absolute;
+  bottom: -50px;
+  right: 380px;
+}
+/* about us section end */
+/* own flaver secton :start */
+.own-flavor {
+  display: flex;
+}
+.own-flavor .own-flav-img1 {
+  width: 900px;
+  margin: 100px 50px 50px 100px;
+}
+.own-flavor .own-flav-img2 {
+  position: absolute;
+  bottom: 10px;
+  width: 350px;
+  margin-top: 400px;
+  margin-left: 15px;
+}
+.own-flavor h6 {
+  font-size: 50px;
+  line-height: 100px;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Roboto";
+  text-align: right;
+  margin-top: 150px;
+}
+.own-flavor p {
+  font-size: 25px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: right;
+}
+.second-sec h6,
+p {
+  margin-right: 200px;
+}
+.second-sec .own-bg {
+  width: 100px;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 130px;
+  left: 350px;
+}
+/* own flaver secton end */
+/* new recipes section :start */
+/* new recipes section :end */
