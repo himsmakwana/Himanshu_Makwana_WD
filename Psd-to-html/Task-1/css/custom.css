@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background-color: #f6f3ec;
+  background-color: yellowgreen;
   /* border: 1px solid; */
 }
 .container {
@@ -27,7 +27,6 @@ img {
   margin-left: 50px;
 }
 header {
-  background-color: #f6f3ec;
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
@@ -119,8 +118,13 @@ header {
 /* restorant section :start */
 .restorant-img {
   margin: 50px;
+  position: relative;
+  z-index: 1;
 }
-.restorant p {
+.restorant-img img {
+  display: block;
+}
+.restorant div p {
   font-size: 25px;
   color: #000000;
   font-weight: 400;
@@ -128,7 +132,7 @@ header {
   text-align: center;
   margin: 5px 300px 5px 300px;
 }
-.restorant h1 {
+.restorant div h1 {
   font-size: 25px;
   color: #000000;
   font-weight: 400;
@@ -157,13 +161,14 @@ header {
 }
 /* restorant section :end */
 /* our menu section :start */
+
 .card {
   display: flex;
-  gap: 100px;
-  margin: 0px -80px;
+  /* gap: 0px; */
+  /* margin: 0px -80px; */
 }
 .card .menu-card {
-  width: 360px;
+  width: 300px;
 }
 .menu .our-menu h6 {
   font-size: 50px;
@@ -202,8 +207,14 @@ header {
 /* our menu section :end */
 /* about us section start */
 .about_us .about-img {
+  position: relative;
+  z-index: 1;
+
   margin-left: 100px;
   margin-right: 50px;
+}
+.about_us .about-img img {
+  display: block;
 }
 .about_us h6 {
   font-size: 50px;
@@ -242,6 +253,7 @@ p {
 /* own flaver secton :start */
 .own-flavor {
   display: flex;
+  margin-top: 50px;
 }
 .own-flavor .own-flav-img1 {
   width: 900px;
@@ -249,6 +261,7 @@ p {
 }
 .own-flavor .own-flav-img2 {
   position: absolute;
+  z-index: 1;
   bottom: 10px;
   width: 350px;
   margin-top: 400px;
@@ -304,11 +317,16 @@ p {
   display: flex;
   column-gap: 30px;
   margin: 50px 100px 50px 100px;
+  position: relative;
+}
+.new-recipes .image-flex .img-1 img {
+  z-index: 1;
+  display: block;
 }
 .new-recipes .image-flex .new-recipes2-img {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 15px;
 }
 .new-recipes .new-recipes-bg1 {
   position: absolute;
