@@ -31,7 +31,6 @@ img {
 header {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   line-height: 180px;
   position: relative;
 }
@@ -45,9 +44,10 @@ header {
   color: #000000;
   text-decoration: none;
   padding: 5px;
+  transition: 2s;
 }
 .navbar li a:hover {
-  color: #be6419;
+  color: rgb(235, 72, 99);
 }
 .btn {
   background-color: #be6419;
@@ -57,11 +57,11 @@ header {
   border-radius: none;
   padding: 5px 15px 5px 15px;
   border: none;
+  transition: 1.2s;
 }
 .btn:hover {
-  background-color: transparent;
-  color: #be6419;
-  outline: 1px solid black;
+  background-color: pink;
+  color: black;
   cursor: pointer;
 }
 .bg_nav {
@@ -89,16 +89,16 @@ header {
   margin: 5px 310px 50px 0px;
 }
 .main-section .sub-section-1 .img-small {
-  width: 242px;
+  width: 220px;
   position: absolute;
-  left: 270px;
-  top: -13px;
+  left: 300px;
+  top: -70px;
 }
 .main-section .sub-section-2 .main-section-img {
-  width: 630px;
+  width: 600px;
 }
 .main-section .sub-section-2 .Yellow-Shape {
-  width: 100px;
+  width: 80px;
   margin-left: 280px;
   margin-bottom: 30px;
 }
@@ -131,14 +131,12 @@ header {
 .restorant div p {
   font-size: 25px;
   font-weight: 400;
-  /* font-family: "Roboto"; */
   text-align: center;
   margin: 5px 300px 5px 300px;
 }
 .restorant div h1 {
   font-size: 50px;
   font-weight: 700;
-  /* font-family: "Roboto"; */
   text-align: center;
   margin: 25px;
 }
@@ -156,9 +154,9 @@ header {
   left: -150px;
 }
 .restorant .resto-bg-3 {
-  width: 100px;
+  width: 70px;
   position: absolute;
-  bottom: -30px;
+  bottom: -50px;
   right: 300px;
 }
 /* restorant section :end */
@@ -166,39 +164,33 @@ header {
 
 .card {
   display: flex;
-  /* gap: 0px; */
-  /* margin: 0px -80px; */
+  justify-content: center;
+  gap: 100px;
+  overflow: hidden;
 }
 .card .menu-card {
+  text-align: left;
   width: 300px;
 }
 .menu .our-menu h6 {
   font-size: 50px;
   line-height: 142px;
-  color: #000000;
   font-weight: 700;
-  /* font-family: "Roboto"; */
   text-align: center;
 }
 .menu .our-menu p {
   font-size: 25px;
-  color: #000000;
   font-weight: 400;
-  /* font-family: "Roboto"; */
   text-align: center;
   margin: 0px 400px 50px 400px;
 }
 .menu .card .menu-card h6 {
   font-size: 26px;
-  color: #000000;
   font-weight: 500;
-  /* font-family: "Roboto"; */
 }
 .menu .card .menu-card p {
-  font-size: 26px;
-  color: #000000;
-  font-weight: 300;
-  /* font-family: "Roboto"; */
+  font-size: 20px;
+  font-weight: 400;
 }
 .menu .abc {
   width: 150px;
@@ -211,7 +203,6 @@ header {
 .about_us .about-img {
   position: relative;
   z-index: 1;
-
   margin-left: 100px;
   margin-right: 50px;
 }
@@ -221,16 +212,12 @@ header {
 .about_us h6 {
   font-size: 50px;
   line-height: 100px;
-  color: #000000;
   font-weight: 700;
-  /* font-family: "Roboto"; */
   margin-top: 100px;
 }
 .about_us p {
   font-size: 25px;
-  color: #000000;
   font-weight: 400;
-  /* font-family: "Roboto"; */
   margin-right: 740px;
   margin-bottom: 50px;
 }
@@ -272,17 +259,13 @@ p {
 .own-flavor h6 {
   font-size: 50px;
   line-height: 100px;
-  color: #000000;
   font-weight: 700;
-  /* font-family: "Roboto"; */
   text-align: right;
   margin-top: 150px;
 }
 .own-flavor p {
   font-size: 25px;
-  color: #000000;
   font-weight: 400;
-  /* font-family: "Roboto"; */
   text-align: right;
 }
 .second-sec h6,
@@ -301,17 +284,13 @@ p {
 .new-recipes h6 {
   font-size: 50px;
   line-height: 70px;
-  color: #000000;
   font-weight: 700;
-  /* font-family: "Roboto"; */
   text-align: center;
   margin-top: 50px;
 }
 .new-recipes p {
   font-size: 25px;
-  color: #000000;
   font-weight: 400;
-  /* font-family: "Roboto"; */
   text-align: center;
   margin: 0px 380px 0px 380px;
 }
@@ -355,22 +334,16 @@ p {
 }
 .talents h6 {
   font-size: 50px;
-  color: #000000;
   font-weight: 700;
-  /* font-family: "Roboto"; */
 }
 .talents .para {
   font-size: 25px;
-  color: #000000;
   font-weight: 400;
-  /* font-family: "Roboto"; */
 }
 .talents .read a {
   font-size: 25px;
   text-decoration: underline;
-  color: #000000;
   font-weight: 500;
-  /* font-family: "Roboto"; */
 }
 .talents .sub_div h6 {
   margin: 50px 220px 20px 100px;
@@ -387,16 +360,13 @@ p {
 .Contact .con-text h6 {
   margin-left: 100px;
   margin-top: 50px;
-  /* margin-bottom: 10px; */
   font-size: 40px;
   font-weight: 500;
 }
 .Contact .con-text .con-read a {
   font-size: 25px;
   text-decoration: underline;
-  color: #000000;
   font-weight: 500;
-  /* margin-right: 20px; */
 }
 .Contact .con-text .c-para {
   margin: 10px 60px 10px 100px;
@@ -404,6 +374,7 @@ p {
   font-weight: 400;
 }
 /* contacts section end */
+/* footer section start */
 footer {
 }
 .footer-section {
@@ -418,13 +389,16 @@ footer {
   justify-content: space-between;
   margin-top: 100px;
 }
-
 .footer-section .f-menu li a {
   font-size: 20px;
   color: #000000;
-  font-weight: 400;
   display: flex;
   text-decoration: none;
+  font-weight: 600;
+}
+.footer-section .f-menu li a:hover {
+  color: #be6419;
+  transition: 1s;
 }
 .footer-section .f-menu li {
   list-style-type: none;
@@ -435,4 +409,15 @@ footer {
 }
 .footer-section .copy-right i {
   padding: 5px;
+  transition: 2s;
+  font-weight: 700;
 }
+.footer-section .copy-right i:hover {
+  background-color: white;
+  color: #be6419;
+  cursor: pointer;
+}
+.footer-section .copy-right p {
+  font-weight: 600;
+}
+/* footer section end */
