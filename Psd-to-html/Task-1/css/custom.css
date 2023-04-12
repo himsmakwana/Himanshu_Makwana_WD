@@ -2,7 +2,9 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background-color: yellowgreen;
+  background-color: #f6f3ec;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   /* border: 1px solid; */
 }
 .container {
@@ -38,7 +40,6 @@ header {
   margin-left: 26px;
   font-size: 20px;
   font-weight: 400;
-  font-family: "Roboto";
 }
 .navbar li a {
   color: #000000;
@@ -94,7 +95,7 @@ header {
   top: -13px;
 }
 .main-section .sub-section-2 .main-section-img {
-  width: 650px;
+  width: 630px;
 }
 .main-section .sub-section-2 .Yellow-Shape {
   width: 100px;
@@ -116,6 +117,9 @@ header {
 }
 /* main section end */
 /* restorant section :start */
+.restorant {
+  margin-top: 100px;
+}
 .restorant-img {
   margin: 50px;
   position: relative;
@@ -126,17 +130,15 @@ header {
 }
 .restorant div p {
   font-size: 25px;
-  color: #000000;
   font-weight: 400;
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
   text-align: center;
   margin: 5px 300px 5px 300px;
 }
 .restorant div h1 {
-  font-size: 25px;
-  color: #000000;
-  font-weight: 400;
-  font-family: "Roboto";
+  font-size: 50px;
+  font-weight: 700;
+  /* font-family: "Roboto"; */
   text-align: center;
   margin: 25px;
 }
@@ -175,14 +177,14 @@ header {
   line-height: 142px;
   color: #000000;
   font-weight: 700;
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
   text-align: center;
 }
 .menu .our-menu p {
   font-size: 25px;
   color: #000000;
   font-weight: 400;
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
   text-align: center;
   margin: 0px 400px 50px 400px;
 }
@@ -190,13 +192,13 @@ header {
   font-size: 26px;
   color: #000000;
   font-weight: 500;
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
 }
 .menu .card .menu-card p {
   font-size: 26px;
   color: #000000;
   font-weight: 300;
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
 }
 .menu .abc {
   width: 150px;
@@ -221,14 +223,14 @@ header {
   line-height: 100px;
   color: #000000;
   font-weight: 700;
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
   margin-top: 100px;
 }
 .about_us p {
   font-size: 25px;
   color: #000000;
   font-weight: 400;
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
   margin-right: 740px;
   margin-bottom: 50px;
 }
@@ -272,7 +274,7 @@ p {
   line-height: 100px;
   color: #000000;
   font-weight: 700;
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
   text-align: right;
   margin-top: 150px;
 }
@@ -280,7 +282,7 @@ p {
   font-size: 25px;
   color: #000000;
   font-weight: 400;
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
   text-align: right;
 }
 .second-sec h6,
@@ -301,7 +303,7 @@ p {
   line-height: 70px;
   color: #000000;
   font-weight: 700;
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
   text-align: center;
   margin-top: 50px;
 }
@@ -309,7 +311,7 @@ p {
   font-size: 25px;
   color: #000000;
   font-weight: 400;
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
   text-align: center;
   margin: 0px 380px 0px 380px;
 }
@@ -346,6 +348,7 @@ p {
   display: flex;
   margin-left: 100px;
   margin-right: 100px;
+  margin-bottom: 50px;
 }
 .talent-img {
   margin-top: 50px;
@@ -354,20 +357,20 @@ p {
   font-size: 50px;
   color: #000000;
   font-weight: 700;
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
 }
 .talents .para {
   font-size: 25px;
   color: #000000;
   font-weight: 400;
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
 }
 .talents .read a {
   font-size: 25px;
   text-decoration: underline;
   color: #000000;
   font-weight: 500;
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
 }
 .talents .sub_div h6 {
   margin: 50px 220px 20px 100px;
@@ -376,3 +379,60 @@ p {
   margin-bottom: 20px;
 }
 /* talents section end */
+/* contact seaction start */
+.Contact {
+  margin: 100px 100px 200px 100px;
+  display: flex;
+}
+.Contact .con-text h6 {
+  margin-left: 100px;
+  margin-top: 50px;
+  /* margin-bottom: 10px; */
+  font-size: 40px;
+  font-weight: 500;
+}
+.Contact .con-text .con-read a {
+  font-size: 25px;
+  text-decoration: underline;
+  color: #000000;
+  font-weight: 500;
+  /* margin-right: 20px; */
+}
+.Contact .con-text .c-para {
+  margin: 10px 60px 10px 100px;
+  font-size: 25px;
+  font-weight: 400;
+}
+/* contacts section end */
+footer {
+}
+.footer-section {
+  margin: 100px 100px 20px 100px;
+}
+.footer-section .f-logo {
+  width: 200px;
+  margin: 30px 30px 30px 0px;
+}
+.footer-section .copy-right {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.footer-section .f-menu li a {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 400;
+  display: flex;
+  text-decoration: none;
+}
+.footer-section .f-menu li {
+  list-style-type: none;
+}
+.footer-section .f-menu {
+  display: flex;
+  gap: 50px;
+}
+.footer-section .copy-right i {
+  padding: 5px;
+}
