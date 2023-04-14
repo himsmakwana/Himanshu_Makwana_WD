@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Java script task</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+      }
+      .container {
+        margin: 50px auto;
+        border: 1px solid black;
+        background-image: linear-gradient(40deg, red, yellow);
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgb(31, 27, 27);
+      }
+      .container div {
+        margin: 10px;
+        font-size: 26px;
+      }
+      .container div input {
+        background-color: rgb(245, 242, 239);
+      }
+      table td {
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: rgb(238, 245, 243);
+      }
+      button {
+        background-color: aliceblue;
+        padding: 3px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: large;
+      }
+      input[type="number"] {
+        color: rgb(26, 26, 22);
+        padding: 5px;
+        font-size: 16px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="book1">
+        <label for="">English</label>
+        <input type="number" id="bookOne" name="" placeholder="enter mark" />
+      </div>
+      <div class="book2">
+        <label for="">Hindi</label>
+        <input type="number" id="bookTwo" name="" placeholder="enter mark" />
+      </div>
+      <div class="book3">
+        <label for="">science</label>
+        <input type="number" id="bookThree" name="" placeholder="enter mark" />
+      </div>
+      <div class="book4">
+        <label for="">Physics</label>
+        <input type="number" id="bookFour" name="" placeholder="enter mark" />
+      </div>
+      <div>
+        <button onclick="calculate()">Calculate</button>
+      </div>
+
+      <div>
+        <table>
+          <tr>
+            <td>Total</td>
+            <td>400</td>
+          </tr>
+          <tr>
+            <td>Obtained Marks</td>
+            <td id="obtain"></td>
+          </tr>
+          <tr>
+            <td>percentage</td>
+            <td id="per"></td>
+          </tr>
+          <tr>
+            <td>Result</td>
+            <td id="result"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script>
+      function calculate() {
+        var a = parseInt(document.getElementById("bookOne").value);
+        var b = parseInt(document.getElementById("bookTwo").value);
+        var c = parseInt(document.getElementById("bookThree").value);
+        var d = parseInt(document.getElementById("bookFour").value);
+
+        if (a > 100 || b > 100 || c > 100 || d > 100) {
+          alert("plaese enter valid mark");
+        } else {
+          let obtain = a + b + c + d;
+          document.getElementById("obtain").innerHTML = obtain;
+          var per = (obtain / 400) * 100;
+          document.getElementById("per").innerHTML = per;
+          if (a > 40 && b > 40 && c > 40 && d > 40) {
+            document.getElementById("result").innerHTML = "pass";
+          } else {
+            document.getElementById("result").innerHTML = "fail";
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
