@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" name="marks" id="marks" />
+    <input type="text" name="marks1" id="marks1" />
+    <input type="button" name="btn" value="Get Result" id="btn" />
+    <div class="result"></div>
+    <script>
+      document.getElementById("btn").addEventListener("click", function () {
+        // console.log("called");
+        var Marks = document.getElementById("marks").value;
+        var Marks1 = document.getElementById("marks1").value;
+        console.log(Marks);
+        addition = parseInt(Marks) + parseInt(Marks1);
+        console.log(addition);
+        DispDiv = document.getElementsByClassName("result");
+        DispDiv[0].innerHTML = "pass";
+      });
+    </script>
+  </body>
+</html>
