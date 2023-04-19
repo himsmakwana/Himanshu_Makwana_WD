@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Assignment</title>
+    <style>
+      * {
+        background-color: ghostwhite;
+        margin: 10px;
+        padding: 5px;
+        font-size: 20px;
+      }
+      .container {
+        background-color: darkgoldenrod;
+      }
+      h1 {
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Assignment JavaScript(Basics & DOM)</h1>
+      <div>
+        <p>Q-1 =>What is JavaScript?</p>
+        <p>
+          Ans: JavaScript is the Programming Language for the Web. JavaScript
+          can update and change both HTML and CSS. JavaScript can calculate,
+          manipulate and validate data.
+        </p>
+        <p>Q-2=> What is the use of isNaN function?</p>
+        <p>
+          Ans: isNaN() method returns true if a value is Not-a-Number.
+          Number.isNaN() returns true if a number is Not-a-Number. In other
+          words: isNaN() converts the value to a number before testing it.
+        </p>
+        <p>Q-3=>What is negative Infinity?</p>
+        <p>
+          Ans:The negative infinity in JavaScript is a constant value that is
+          used to represent a value that is the lowest available. This means
+          that no other number is lesser than this value. It can be generated
+          using a self-made function or by an arithmetic operation.
+        </p>
+        <p>Q-4=>Which company developed JavaScript?</p>
+        <p>
+          Ans:JavaScript was invented by Brendan Eich in 1995. It was developed
+          for Netscape 2, and became the ECMA-262 standard in 1997. After
+          Netscape handed JavaScript over to ECMA, the Mozilla foundation
+          continued to develop JavaScript for the Firefox browser. Mozilla's
+          latest version was 1.8.5. (Identical to ES5).
+        </p>
+        <p>Q-5=> What are undeclared and undefined variables?</p>
+        <p>
+          Ans:Undefined variable means a variable has been declared but does not
+          have a value. Undeclared variable means that the variable does not
+          exist in the program at all.
+        </p>
+        <p>Q-6=> Write the code for adding new elements dynamically?</p>
+        <p>
+          Ans:we will be exploring how to add HTML elements dynamically so that
+          they could change the view component. Also not just an HTML element,
+          we can also add CSS properties to HTML elements with the help of
+          JavaScript. In this article, we will be using a button to facilitate
+          the addition of an HTML element in the already built template.
+        </p>
+        <p>
+          example=><!DOCTYPE html>
+          <html>
+            <head>
+              <title>Adding HTML elements dynamically</title>
+              <style>
+                h1 {
+                  color: green;
+                  display: flex;
+                  justify-content: center;
+                }
+                #mybutton {
+                  display: block;
+                  margin: 0 auto;
+                }
+                #innerdiv {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                }
+              </style>
+            </head>
+            <body>
+              <h1>Welcome To Tutorials Point</h1>
+              <div id="innerdiv"></div>
+              <button id="mybutton">Click to Add HTML element</button>
+              <script>
+                document
+                  .getElementById("mybutton")
+                  .addEventListener("click", function () {
+                    document.getElementById("innerdiv").innerHTML +=
+                      "<h3>Hello User</h3><p>Start your learning journey today.</p>";
+                  });
+              </script>
+            </body>
+          </html>
+        </p>
+        <p>Q-7=>What is the difference between ViewState and SessionState?</p>
+        <p>
+          Ans:- A ViewState is a state of a page within a browser wherein the
+          values of controls persist when post back operation is done. When
+          another page is loaded, the previous page data is no longer available.
+          - SessionState is the data of a user session and is maintained on the
+          server side. This data available until user closes the browser or
+          session time-outs.
+        </p>
+        <p>Q-8=> What is === operator?</p>
+        <p>
+          Ans:The equality operator in javascript is used to compare if two
+          values are equal. The comparison is made by == and === operators in
+          javascript. The main difference between the == and === operator in
+          javascript is that the == operator does the type conversion of the
+          operands before comparison, whereas the === operator compares the
+          values as well as the data types of the operands.
+        </p>
+        <p>Q-9=> How can the style/class of an element be changed?</p>
+        <p>
+          ANs:To change the style of an HTML element, use this syntax:
+          document.getElementById(id).style.property = new style The following
+          example changes the style of a p elemen.
+        </p>
+        <p>
+          <html>
+            <body>
+              <p id="p2">Hello World!</p>
+
+              <script>
+                document.getElementById("p2").style.color = "blue";
+              </script>
+            </body>
+          </html>
+        </p>
+        <p>Q-10=> How to read and write a file using JavaScript?</p>
+        <p>
+          Ans:On the client side, you can’t read or write files in JavaScript
+          browsers. The fs module in Node.js may be used to accomplish this on
+          the server-side.The fs.readFile() and rs.writeFile() methods are used
+          to read and write of a file using javascript. The file is read using
+          the fs.readFile() function, which is an inbuilt method.
+        </p>
+        <p>Syntax: fs.readFile( file_name, encoding, callback_function )</p>
+        <p>Q-11=> What are all the looping structures in JavaScript?</p>
+        <p>
+          Ans:The for statement creates a loop with 3 optional expressions: for
+          (expression 1; expression 2; expression 3) { // code block to be
+          executed } Expression 1 is executed (one time) before the execution of
+          the code block. Expression 2 defines the condition for executing the
+          code block. Expression 3 is executed (every time) after the code block
+          has been executed. for (let i = 0; i < 5; i++) { text += "The number
+          is " + i + "<br />"; }
+        </p>
+        <p>
+          Q-12=> How can you convert the string of any base to an integer in
+          JavaScript?
+        </p>
+        <p>
+          Ans:To convert a string to an integer parseInt(), Number(), and Unary
+          operator(+) function is used in javascript. parseInt() function
+          returns Nan( not a number) when the string doesn’t contain number. If
+          a string with a number is sent, then only that number will be returned
+          as the output.
+        </p>
+        <p>Q-13=> What is the function of the delete operator?</p>
+        <p>
+          ANs:The JavaScript pop(), shift(), or splice() methods are available
+          to delete an element from an array. But because of the key-value pair
+          in an object, deleting is more complicated. Note that, the delete
+          operator only works on objects and not on variables or functions.
+        </p>
+        <p>
+          Q-14=> What are all the types of Pop up boxes available in JavaScript?
+        </p>
+        <p>
+          Ans:JavaScript has three kind of popup boxes: Alert box, Confirm box,
+          and Prompt box.
+        </p>
+        <p>Q-15=> What is the use of Void (0)?</p>
+        <p>
+          Ans:The void operator is used to evaluate an expression and returns
+          the undefined. Generally, this operator is used for obtaining the
+          undefined primitive value.
+        </p>
+        <p>
+          Q-16=> How can a page be forced to load another page in JavaScript?
+        </p>
+        <p>
+          Ans:In JavaScript, we can use window.location object to force a page
+          to load another page. We can use the location object to set the URL of
+          a new page. There are different ways window.location.href property,
+          window.location.assign() and window.location.replace() methods, to set
+          the URL of a new page using the location object.
+        </p>
+        <p>
+          Q-17=>What are the disadvantages of using innerHTML in JavaScript?
+        </p>
+        <p>
+          Ans:Disadvantages of innerHTML Event handlers attached to any DOM
+          element are preserved. Replacement is done everywhere. It is not
+          possible to append innerHTML. Breaks the document. Used for Cross-site
+          Scripting.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
