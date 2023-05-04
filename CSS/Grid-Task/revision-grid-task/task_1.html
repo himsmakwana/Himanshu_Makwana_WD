@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid task1 basic web layout</title>
+    <style>
+      * {
+        border: 1px solid black;
+      }
+      #web {
+        display: grid;
+        grid-template-rows: 50px 1fr 200px 100px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+          "header menu menu menu menu"
+          "#hero #hero #hero #hero #hero"
+          "main main image image image"
+          "footer footer footer footer footer";
+        width: 100%;
+        height: 300px;
+      }
+      #web > header {
+        grid-area: header;
+      }
+      #web > menu {
+        grid-area: menu;
+      }
+      .web div {
+        grid-area: hero;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="web">
+      <header>Header</header>
+      <menu>menu</menu>
+      <div id="hero">Hero</div>
+      <main>main</main>
+      <div id="image">image</div>
+      <div id="extra">extra</div>
+      <footer>banner</footer>
+    </section>
+  </body>
+</html>
