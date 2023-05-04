@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Task-2</title>
+    <style>
+      * {
+        border: 1px solid red;
+      }
+      .wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax(200px, auto);
+      }
+      .three {
+        background-color: aqua;
+        grid-column: 3/5;
+        grid-row: 1/4;
+      }
+      .four {
+        background-color: yellowgreen;
+        grid-column: 1/3;
+        grid-row: 2/4;
+      }
+      .five {
+        background-color: rgb(23, 21, 121);
+        grid-column: 1/3;
+        grid-row: 4/6;
+      }
+      .six {
+        background-color: yellow;
+        grid-column: 3/5;
+        grid-row: 4/6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="one">
+        <img src="/images/download (6).jfif" alt="" srcset="" />
+      </div>
+      <div class="two">
+        <img src="/images/downlo5ad.jfif" alt="" srcset="" />
+      </div>
+      <div class="three"></div>
+      <div class="four">four</div>
+      <div class="five">five</div>
+      <div class="six">six</div>
+    </div>
+  </body>
+</html>
