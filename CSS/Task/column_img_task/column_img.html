@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>column task</title>
+    <style>
+         * {
+           margin: 0px;
+           padding: 0px;
+           box-sizing: border-box;
+           /* border: 1px solid black; */
+         }
+         .wrapper {
+           width: 100%;
+           margin: 100px auto;
+           columns: 2;
+           column-gap: 0px;
+           background-color: #1f1f1f;
+
+          }
+          img {
+              width: 100%;
+          }
+          .box1{
+              text-align: right;
+        }
+        .box2{
+          position: relative;
+      }
+      .box1 h2 {
+          font-size: 36px;
+          letter-spacing: 4px;
+          color: #f4f5f9;
+          font-weight: 700;
+          font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+          margin: 20px 0px;
+      }
+      .box1 h6 {
+           font-size: 18px;
+           line-height: 29px;
+           color: #e74c3c;
+           font-weight: 600;
+           font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+             Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+             sans-serif;
+           text-align: right;
+           margin: 20px;
+
+          }
+          .box1 p {
+              font-size: 14px;
+              line-height: 29px;
+              color: #999999;
+              font-weight: 400;
+              font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+              text-align: right;
+              margin: 20px;
+         }
+         #icon1{
+          width: 50px;
+          position: absolute;
+          /* z-index: 2; */
+          top: 100px;
+          left: -25px;
+         }
+         #icon2{
+          width: 50px;
+          position: absolute;
+          /* z-index: 2; */
+          top: 230px;
+          left: -25px;
+         }
+         #icon3{
+          width: 50px;
+          position: absolute;
+          /* z-index: 2; */
+          bottom: 70px;
+          left: -25px;
+         }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="box1">
+        <h2>OUR SERVICES</h2>
+        <h6>WEB dESIGN</h6>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ip sum has been the industry's standard dummy text
+          ever.
+        </p>
+
+        <h6>PRINT dESIGN</h6>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ip sum has been the industry's standard dummy text
+          ever.
+        </p>
+
+        <h6>PHOTOGRAPHY</h6>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ip sum has been the industry's standard dummy text
+          ever.
+        </p>
+      </div>
+      <div class="box2">
+        <img src="Layer 3.png" alt="" srcset="" />
+        <div id="icon1" class="icon">
+          <img src="icon1.png" alt="" srcset="" />
+        </div>
+        <div id="icon2" class="icon">
+          <img src="icon2.png" alt="" srcset="" />
+        </div>
+        <div id="icon3" class="icon">
+          <img src="icon3.png" alt="" srcset="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
