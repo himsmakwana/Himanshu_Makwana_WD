@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        border: 1px solid black;
+      }
+      .container {
+        width: 100%;
+        margin: 0px auto;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+      }
+      .col {
+        padding-left: 15px;
+        padding-right: 15px;
+        flex: 0 0 100%;
+      }
+      img {
+        width: 100%;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        line-height: 50px;
+        padding-top: 20px;
+      }
+      header nav ul li {
+        display: inline-block;
+      }
+      .container .logo img {
+        width: 50px;
+      }
+      /* .container .logo {
+        background-color: rgb(17, 85, 141);
+        border-radius: 50%;
+        width: 53px;
+      } */
+      .nav1 {
+        display: flex;
+        /* justify-content: space-between; */
+      }
+      .nav2 {
+        display: flex;
+      }
+      .banner {
+        width: 100px;
+      }
+      /* @media (min-width: 400px) {
+        .container {
+          width: 380px;
+        }
+        .col {
+          /* flex: 0 0 50%; */
+        /* } */ */
+        /* @media (min-width: 700px) {
+        .container {
+          width: 650px;
+        }
+        .col {
+          flex: 0 0 33.33%;
+        }
+        @media (min-width: 1000px) {
+        .container {
+          width: 900;
+        }
+        .col {
+          flex: 0 0 25%;
+        } */
+        /* @media (min-width: 1200px) {
+        .container {
+          width: 1100;
+        }
+        .col {
+          flex: 0 0 10%;
+        } */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="nav1">
+          <div class="logo">
+            <img src="/responsive/logo.png" alt="logo" />
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">class</a></li>
+              <li><a href="#">Creation</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="nav2">
+          <div>
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div><button>Login/Sign Up</button></div>
+        </div>
+      </header>
+    </div>
+  </body>
+  <section class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Discover Your Creative Talent With us!</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam
+            nonummy nibh euismod tincidunt ut
+          </p>
+          <button>Discount Class</button> <button>Catalogue</button>
+        </div>
+        <div class="col">
+          <div class="banner">
+            <img src="/responsive/Rectangle.png" alt="image" />
+          </div>
+          <h2>Riyana Doe <span>Art Directore</span></h2>
+        </div>
+        <div class="col">
+          <div><h2>Info</h2></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</html>
