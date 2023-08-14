@@ -121,3 +121,21 @@
     font-size: 50px;
   }
 }
+/* blog  */
+
+#blog {
+  padding-bottom: 70px;
+  padding-top: 70px;
+  border: 1px solid rgb(185, 185, 185);
+}
+#blog-title {
+  font-size: 50px;
+  font-weight: bolder;
+}
+#blog-p {
+  font-size: 20px;
+  margin-bottom: 70px;
+}
+.artical-detail {
+  padding: 15px;
+}
