@@ -44,3 +44,80 @@
     width: 150px;
   }
 }
+
+/* banner  */
+#banner {
+  background-color: #fcc302;
+  padding-bottom: 20px;
+}
+#bannertext h1 {
+  color: white;
+  font-size: 70px;
+  margin-top: 100px;
+}
+#bannertext p {
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#banner-btn-1 {
+  background-color: #00bec9;
+  border: 2px solid #00bec9;
+  color: white;
+}
+#banner-btn-2 {
+  color: white;
+  border: 2px solid white;
+  margin-left: 15px;
+}
+@media only screen and (maxi-width: 1300px) {
+  #bannertext h1 {
+    font-size: 50px;
+  }
+  #banner {
+    padding-bottom: 70px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #bannertext h1 {
+    font-size: 40px;
+  }
+  #bannerimg img {
+    padding-top: 70px;
+  }
+}
+/* sevice  */
+#service-text {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+#service-btn {
+  color: white;
+  background-color: #fcc302;
+  border: 2px solid #fcc302;
+}
+#service-img {
+  padding: 5%;
+}
+@media only screen and (max-width: 768px) {
+  #service-img {
+    padding-top: 10%;
+  }
+}
+/* counter section  */
+#counter-section {
+  background-image: url(../images/counter.png);
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background-position: center;
+  background-size: cover;
+}
+.counter-icon {
+  font-size: 70px;
+}
+@media only screen and (max-width: 500px) {
+  .counter-icon {
+    font-size: 50px;
+  }
+}
