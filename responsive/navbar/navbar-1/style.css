@@ -1,6 +1,8 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+  font-family: calibri;
 }
 body,
 html {
@@ -11,4 +13,29 @@ nav {
   width: 100%;
   height: 80px;
   background-color: #ec5766;
+}
+.logo {
+  font-size: 30px;
+  color: white;
+  margin: 0px 100px;
+  line-height: 80px;
+}
+nav ul {
+  float: right;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 8px 20px;
+}
+nav ul li a.active,
+a:hover {
+  background-color: #de3747;
 }
