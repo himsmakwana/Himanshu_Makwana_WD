@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Roboto&family=Work+Sans:wght@300&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "work sans", sans-serif;
+}
+html {
+  font-size: 62.5%;
+  /* 1rem= 10px */
+}
+.header {
+  padding: 0px 4.8rem;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e7f5ff;
+}
+.header .logo {
+  height: 3rem;
+}
+.navbar-list {
+  display: flex;
+  gap: 4.8rem;
+  list-style: none;
+}
+.navbar-link:link,
+.navbar-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #212529;
+  transition: all 0.3s;
+}
+.navbar-link:hover,
+navbar-link:active {
+  color: #364fc7;
+}
+/* ===================================================
+            Hero and Service Section start
+ =================================================== */
+.section-hero,
+.section-services {
+  padding: 9.6rem 0;
+  background-color: #a5d8ff;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-services {
+  background: #f3f0ff;
+}
+.section-hero p,
+.section-services p {
+  font-size: 3.2rem;
+}
+.mobile-navbar-btn {
+  display: none;
+  background: transparent;
+  cursor: pointer;
+}
+.mobile-nav-icon {
+  width: 4rem;
+  height: 4rem;
+  color: #212529;
+}
+.mobile-nav-icon[name="close-outline"] {
+  display: none;
+}
+/* ===================================================
+            Responsive codes start
+ =================================================== */
+/* 980px */
+@media (max-width: 62em) {
+  .mobile-navbar-btn {
+    display: block;
+    z-index: 999;
+    border: 3px solid #212529;
+    color: #212529;
+  }
+  .header {
+    position: relative;
+  }
+  .header .logo {
+    width: 20%;
+  }
+  .navbar {
+    /* display: none; */
+    width: 100%;
+    height: 100vh;
+    background: #e7f5ff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition  */
+    transform: translateX(100%);
+    transition: all 0.5s linear;
+  }
+  .navbar-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
