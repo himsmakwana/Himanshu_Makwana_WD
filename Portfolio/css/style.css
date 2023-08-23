@@ -64,22 +64,67 @@ nav li:hover {
 #hero {
   background-color: var(--dark-color);
   padding: 4rem 0;
+  border-bottom: 4px solid var(--lighting-color);
 }
 #hero .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.hero-img img {
+/* .hero-img img {
   width: 100%;
-  /* max-width: 30rem; */
-}
+  max-width: 30rem;
+} */
 .hero-content {
   display: grid;
   place-items: center;
 }
-.hero-img {
-  background-color: #fff700;
-  /* border-radius: 50%; */
+#hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hi-text {
+  font-size: 6rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+.name-text {
+  font-size: 5rem;
+}
+#hero h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  /* animation  */
   overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+/* .hero-img {
+  background-color: #fff700;
+  border-radius: 50%;
+  overflow: hidden;
+} */
+
+/* project section  */
+#project {
+  background: var(--darker-color);
 }
