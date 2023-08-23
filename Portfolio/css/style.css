@@ -128,3 +128,34 @@ nav li:hover {
 #project {
   background: var(--darker-color);
 }
+#project h2 {
+  font-size: 6rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+.grid-item {
+  display: grid;
+  place-items: center;
+}
+.card {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: 0.2s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: 1s ease-in-out;
+}
+.card img:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+  opacity: 0.8;
+}
