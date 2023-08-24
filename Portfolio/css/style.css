@@ -177,3 +177,54 @@ nav li:hover {
 .card-content h3 {
   text-align: center;
 }
+/* contact section  */
+#contact {
+  background: var(--dark-color);
+}
+#contact h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+#contact .container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: center;
+}
+.top-contact {
+  max-width: 800px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+}
+.contact-way {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.contact-way i {
+  font-size: 3rem;
+}
+.contact-way h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.bottom-contact {
+  max-width: 400px;
+
+  display: grid;
+  gap: 1rem;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+}
+/* footer  */
+footer {
+  background: var(--darker-color);
+  padding: 2rem;
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+}
+/* Media Query  */
