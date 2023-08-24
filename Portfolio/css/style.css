@@ -133,7 +133,7 @@ nav li:hover {
 #project h2 {
   font-size: 6rem;
   text-align: center;
-  margin: 2rem 0;
+  padding: 2rem 0;
 }
 .project-container {
   display: grid;
@@ -228,3 +228,35 @@ footer {
   text-align: center;
 }
 /* Media Query  */
+@media (max-width: 786px) {
+  html {
+    font-size: 40%;
+  }
+  #hero .container {
+    flex-direction: column;
+  }
+  .hero-img {
+    display: grid;
+    place-items: center;
+  }
+  #contact .container {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 32%;
+  }
+
+  #hero .container {
+    flex-direction: column;
+  }
+  .hero-img {
+    display: grid;
+    place-items: center;
+  }
+  #contact .container {
+    height: 50vh;
+  }
+}
