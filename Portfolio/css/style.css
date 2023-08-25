@@ -77,7 +77,7 @@ nav li:hover {
 #hero .container img {
   max-width: 350px;
   height: auto;
-  background-color: #fff700;
+  background-color: #a7b8bf78;
   border-radius: 50%;
 }
 /* ##################################### */
@@ -91,6 +91,9 @@ nav li:hover {
   font-weight: bold;
   text-align: end;
   margin-bottom: 2rem;
+}
+#hero h1 .surname {
+  color: #fff700;
 }
 .hi-text {
   font-size: 6rem;
