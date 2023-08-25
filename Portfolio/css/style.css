@@ -73,6 +73,14 @@ nav li:hover {
   justify-content: space-around;
   align-items: center;
 }
+/* ########################### */
+#hero .container img {
+  max-width: 350px;
+  height: auto;
+  background-color: #fff700;
+  border-radius: 50%;
+}
+/* ##################################### */
 
 .hero-content {
   display: grid;
@@ -81,6 +89,8 @@ nav li:hover {
 #hero h1 {
   font-size: 3rem;
   font-weight: bold;
+  text-align: end;
+  margin-bottom: 2rem;
 }
 .hi-text {
   font-size: 6rem;
@@ -105,7 +115,7 @@ nav li:hover {
     width: 0;
   }
   to {
-    width: 100%;
+    width: 70%;
   }
 }
 @keyframes blink-caret {
