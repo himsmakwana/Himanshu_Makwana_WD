@@ -73,10 +73,7 @@ nav li:hover {
   justify-content: space-around;
   align-items: center;
 }
-/* .hero-img img {
-  width: 100%;
-  max-width: 30rem;
-} */
+
 .hero-content {
   display: grid;
   place-items: center;
@@ -120,15 +117,11 @@ nav li:hover {
     border-color: orange;
   }
 }
-/* .hero-img {
-  background-color: #fff700;
-  border-radius: 50%;
-  overflow: hidden;
-} */
 
 /* project section  */
 #project {
   background: var(--darker-color);
+  padding-bottom: 3rem;
 }
 #project h2 {
   font-size: 6rem;
@@ -182,7 +175,7 @@ nav li:hover {
   background: var(--dark-color);
 }
 #contact h2 {
-  font-size: 2rem;
+  font-size: 6rem;
   text-align: center;
   margin: 2rem 0;
 }
